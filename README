@@ -1,0 +1,24 @@
+###############################################################################
+				Block TOR
+###############################################################################
+
+- About -
+The purpose of this script is to block TOR exit nodes from
+accessing your server via IP tables.
+
+- Usage -
+Run as root/sudo. You may also put it in a cron tab but I
+wouldn't run it more than once per day, if that. I have it
+set to run once per week on my servers.
+
+- Disclaimer -
+This script is provided AS-IS. Any damage to your system, 
+lost revenue, lost productivity, etc. is on YOU, the USER.
+
+- Additional Comments -
+This script is not meant to infringe on users who have
+valid uses for TOR. This is meant to add an additional
+layer of security to your servers. In my experience, I
+don't think anybody accessing my servers /needs/ to be
+on TOR and for the most part I have received more bad than
+good via the protocol, so I just block it.
