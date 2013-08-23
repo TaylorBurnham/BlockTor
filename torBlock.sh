@@ -3,7 +3,8 @@
 # block all TOR exit nodes via IP tables.
 # The list is automatically generated.
 #
-# It is inadvisable to run this more than once per day.
+# I strongly suggest you check out the
+# README prior to using this.
 publicIP=$(curl -s ifconfig.me)
 
 
